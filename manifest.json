@@ -1,13 +1,13 @@
 {
-  "name": "Top Item Display",
-  "description": "Viser navnet på den bedst sælgende vare som en KPI",
-  "author": "Dit Navn",
-  "organization": "Din Virksomhed",
+  "name": "Test Viz",
+  "description": "Simple test viz for Looker Studio",
+  "organization": "Your Org",
+  "author": "Your Name",
   "components": {
     "main": {
       "script": "script.js",
       "html": "index.html",
-      "useSandbox": true
+      "useSandbox": false
     }
   },
   "style": {
