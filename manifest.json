@@ -1,0 +1,32 @@
+{
+  "name": "Top Item Display",
+  "description": "Viser navnet på den bedst sælgende vare som en KPI",
+  "author": "Dit Navn",
+  "organization": "Din Virksomhed",
+  "components": {
+    "main": {
+      "script": "script.js",
+      "html": "index.html",
+      "useSandbox": true
+    }
+  },
+  "style": {
+    "css": "style.css"
+  },
+  "fields": {
+    "dimensions": [
+      {
+        "id": "item_name",
+        "name": "Item Name",
+        "type": "TEXT"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "items_purchased",
+        "name": "Items Purchased",
+        "type": "NUMBER"
+      }
+    ]
+  }
+}
